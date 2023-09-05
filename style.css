@@ -1,0 +1,85 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+body::before{
+    content: '';
+    width: 100%;
+    background: #7ab8a5;
+    left: 0;
+    top: 0;
+    position: absolute;
+    min-height: 34.5rem;
+    z-index: -1;
+    box-shadow: 0 4px 4px 0 rgba(2, 224, 240, 0.3);
+}
+body{
+    background: #232b31;
+    place-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hide{
+    display: none;
+    
+}    
+    
+h1{
+    margin-bottom: 1.8rem;
+    width: 90%;
+    font-size: 3.5rem;
+    font-weight: bold;
+    transition:  0.3s;
+}
+p{
+    font-size: 1.4rem;
+    color: #848788;
+}
+.screen1 .tries{
+    margin: 1.2rem 0;
+}
+p:hover{
+    color: rgb(41, 40, 40);
+}
+div{
+    
+    margin: 25.2rem auto;
+    background: #fff;
+    width: min(40rem, 90%);
+    background-color: rgb(255, 255, 255);
+    padding: 3.8rem 6.4rem 4.8rem;
+    border-radius: 0.8rem;
+    box-shadow: 2px 2px 1px 0 rgb(255, 255, 255);
+}
+input,button{
+    
+    margin-top: 1.2rem;
+    border: none;
+    padding: 1.6rem 2.4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    
+}
+form{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    background: #d8d5d5;
+    width: 100%
+}
+button{
+    transition: background 0.3s;
+}
+button:hover{
+    background: #7ab8a5;
+}
+.screen2 p{
+    font-size: 2rem;
+    color: #232b31;
+
+}
